@@ -1,0 +1,2 @@
+alias gbd="git branch | fzf --multi | xargs git branch -D"
+alias gbc="git branch | fzf | xargs git checkout"
