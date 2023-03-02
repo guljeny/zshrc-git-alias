@@ -1,6 +1,8 @@
 # ZSHRC git alias
 Some aliases to improve console git usability
 
+![Demo](https://github.com/guljeny/zshrc-git-alias/blob/master/images/gbd.gif)
+
 ## Instalation
 - [Install FZF](https://github.com/junegunn/fzf#installation)
 - Add aliases
