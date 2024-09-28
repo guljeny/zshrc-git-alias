@@ -1,0 +1,9 @@
+#!/bin/bash  
+  
+parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
+cd "$parent_path"
+commands="
+alias gbd=\"git branch | fzf --multi | xargs git branch -D\"\n\
+alias gbc=\"git branch | fzf | xargs git checkout\"
+"
+echo -e $commands >> ~/.zshrc

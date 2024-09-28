@@ -5,14 +5,7 @@ Some aliases to improve console git usability
 
 ## Instalation
 - [Install FZF](https://github.com/junegunn/fzf#installation)
-- Add aliases
-  ```
-  git clone git@github.com:guljeny/zshrc-git-alias.git
-  cd ./zshrc-git-alias
-  bin/install
-  ```
-
-  Or manually copy `alias-list.txt` contents to `~/.zshrc`
+- Install aliases `curl https://raw.githubusercontent.com/guljeny/zshrc-git-alias/refs/heads/master/install | bash`
 - Enjoy 🐬
 
 ## Navigation
@@ -28,4 +21,4 @@ Some aliases to improve console git usability
 
 Want to contribute? Great!
 
-Just push your PR =)
+Just push your PR 🙃
